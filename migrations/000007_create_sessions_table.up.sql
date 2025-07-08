@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS sessions(
+    id TEXT PRIMARY KEY,
+    userId INT NOT NULL
+)
